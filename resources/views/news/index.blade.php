@@ -96,7 +96,7 @@
     </head>
     <body>
         <h2 class="content title">Uudised</h2>
-        <div class="pagination" data-next-page="1">
+        <div class="pagination">
             <ul class="news">
                 @foreach($news as $val)
                 <li class="news-item">
@@ -112,9 +112,6 @@
         <script>
             $(document).ready(function () {
                 page = 2;
-                $.each($('div'), function (index, item) {
-                    $(item).attr('data-news', index);
-                });
                 $(window).scroll(function () {
                     if (page != null) {
                         clearTimeout($.data(this, "scrollCheck"));
@@ -129,9 +126,6 @@
                                     dataType: 'json',
                                     success: function (data) {
                                         page++;
-                                        // $.each($('li'), function (index, item) {
-                                        //     $(item).attr('data-news', index);
-                                        // });
                                         if (data.news != "") {
                                             $('.news').append(data.news);
                                         } else {
