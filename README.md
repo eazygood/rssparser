@@ -17,7 +17,7 @@ CACHE_DRIVER=redis
 ````
 5. Write in terminal "php artisan key:generate"
 6. Install redis and start (redis-server && redis-cli)
-7. Write in terminal php artisan serve (to run server)
+7. Write in terminal "php artisan serve" (to run server)
 8. Finally visit 127.0.0.1:8000
 
 
