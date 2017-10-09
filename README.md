@@ -1,5 +1,5 @@
 # ERR News parser
-## How to initialize
+## How to lunch it
 
 1. Clone :point_right:repo
 2. Write "composer update" in terminal
