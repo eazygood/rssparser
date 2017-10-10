@@ -1,4 +1,4 @@
-# ERR News parser
+# ERR News parser 
 ## How to lunch it
 
 1. Clone :point_right:repo
@@ -20,5 +20,10 @@ CACHE_DRIVER=redis
 7. Write in terminal "php artisan serve" (to run server)
 8. Finally visit 127.0.0.1:8000
 
-
 That's all :boom: 
+
+## Technologies used
+Laravel framework
+jQuery library
+MySQL DB 
+Redis (NoSQL)
