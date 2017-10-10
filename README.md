@@ -24,5 +24,5 @@ That's all :boom:
 
 ## Technologies used
 
-*Laravel framework
-jQuery library
+1.Laravel framework
+2.jQuery library
