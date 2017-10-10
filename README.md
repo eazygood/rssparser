@@ -24,7 +24,7 @@ That's all :boom:
 
 ## Technologies used
 
-Laravel framework
-jQuery library
-MySQL DB 
-Redis (NoSQL)
+Laravel framework\s\s
+jQuery library\s\s
+MySQL DB \s\s
+Redis (NoSQL)\s\s
