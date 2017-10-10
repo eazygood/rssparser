@@ -23,7 +23,5 @@ CACHE_DRIVER=redis
 That's all :boom: 
 
 ## Technologies used
-*Laravel framework
+Laravel framework
 jQuery library
-MySQL DB
-Redis (NoSQL)
